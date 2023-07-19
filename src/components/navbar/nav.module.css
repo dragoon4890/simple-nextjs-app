@@ -1,0 +1,37 @@
+.container{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.link{
+
+    padding: 20px;
+
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 44px;
+    color: inherit;
+
+}
+
+.logout{
+    padding: 5px;
+    border:none;
+    border-radius: 4px;
+    background-color: aquamarine;
+    color: black;
+
+}

@@ -1,0 +1,10 @@
+.buton{
+   
+    padding: 15px;
+     cursor: pointer;
+     background-color: aquamarine;
+     border: none;
+     border-radius: 10px;
+     width:max-content
+ 
+ }

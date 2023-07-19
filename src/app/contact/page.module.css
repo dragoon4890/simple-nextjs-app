@@ -1,0 +1,66 @@
+.imgcontainer{
+    flex: 1;
+    
+    height: 500px ;
+    position: relative;
+}
+
+.form {
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 50px
+}
+
+.input , .message{
+
+    padding: 20px;
+    background-color: transparent;
+    outline: none;
+    color: #bbb;
+    border: 3px solid #bbb;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.Title{
+
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column ;
+    gap: 30px
+}
+.img{
+
+    object-fit: contain;
+    animation: move 3s ease  infinite alternate ;
+}
+
+
+@keyframes move {
+
+    from{
+        transform: translateY(-15px);
+    }
+    to {
+        transform: translateY(0px) scale(1.03);
+    }
+}
